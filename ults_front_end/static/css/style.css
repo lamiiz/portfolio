@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+    /* z-index: 10; */
+    overflow-x: hidden;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+.navbar_bg{
+    background-color: #383838;
+}
+.navbar_img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.hero_img {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+/* .hero_img {
+    margin-right: 30px;
+    background: #000000;
+    opacity: .6;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    transition: all .4s ease-in-out 0s;
+} */
+
+
+.baner_text {
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.baner_text_2 {
+    font-size: 3rem;
+    color: #fff;
+    position: relative;
+}
+
+@media screen and (max-width: 992px) {
+    .baner_text {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .baner_text {
+        font-size: 1.8rem;
+    }
+}
+
+
+
+.blur {
+    position: absolute;
+    
+    height: 100vh;
+    width: 100%;
+    background: #0000008a;
+}
+
+@media screen and (max-width: 586px) {
+    .hero_img_cuntent {
+        width: 100%;
+        margin-top: -80px;
+    }
+
+    .hero_img {
+        width: 100vw;
+        height: 75vh;
+        background-size: cover;
+    }
+
+    .blur {
+        height: 75vh;
+        width: 100vw;
+    }
+
+    .baner_text {
+        font-size: 1.3rem;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .nav_item {
+        visibility: hidden;
+        display: none;
+    }
+
+}
+
+
+/* @media screen and (max-width: 669px) {
+    .material-symbols-outlined {
+        margin-left: -5em;
+    }
+}
+ */
+/* @media screen and (max-width: 969px) {
+    .material-symbols-outlined {
+        margin-left: 0;
+    }
+} */
+
+
+.nav_light {
+    margin-right: 2em;
+}
+
+@media screen and (max-width: 425px) {
+    .nav_light {
+        margin-left: -2em;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nav_light {
+        margin-left: -2em;
+
+    }
+
+    .navbar_img {
+
+        width: 3rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .navbar_img {
+
+        width: 2rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar_img {
+        width: 2rem;
+    }
+}
+
+
+
+
+/* second sectin */
+
+.second_section {
+    height: 90vh;
+    width: 100vw;
+    background-color: #303030;
+}
+@media screen and (max-width: 1440px) {
+    .second_section {
+        height: 110vh;
+        
+    }
+}
+@media screen and (max-width: 1024px) {
+    .second_section {
+        height: 120vh;
+        
+    }
+}
+/* .card_text {
+    color: #bebebe;
+    line-height: 32px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+} */
+.card_text_heading{
+    color: #bebebe;
+}
+.service-icon {
+    height: 70px;
+}
+
+
+.style_gap {
+    gap: 50px;
+}
+
+
+
+.READ_MORE {
+
+    color: #ecdc48;
+}
+
+.READ_MORE:hover {
+    color: #ec801b;
+}
+
+.section_2 {
+
+    background-color: #134941;
+}
+
+
+.img_master {
+    height: 50%;
+    width: auto;
+    margin-left: auto;
+}
+
+
+.img_ctnt_row {
+    height: 55vh;
+    width: 100vw;
+}
+
+.body_2 {
+    gap: 40px;
+    color: #ffffff;
+}
+
+.perograph_masterimg {
+    line-height: 250%;
+}
+
+
+.grid_centering {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section_3 {
+
+    background-color: #303030;
+}
+
+
+
+.section_4 {
+
+    background-image: url(/static/images/home_people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 1px; */
+}
+
+
+
+
+/* section 4 start */
+.blur_2 {
+    /* position: absolute; */
+    background-color: #0000009c;
+}
+
+
+.baner_text_3 {
+    font-size: 3rem;
+    color: #fff;
+    position: relative;
+}
+
+
+
+.perograph_masterimg_2 {
+    /* font-size: 1rem; */
+    line-height: 200%;
+}
+
+
+
+.section_5 {
+    background-color: #303030;
+    height: 75vh;
+    width: 100vw;
+    color: #ffffff;
+
+}
+
+
+.card_text_bttm {
+    font-weight: 300;
+}
+
+.READ_OUR_BLOG {
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+
+.section_6 {
+
+    background-image: url(/static/images/home_career.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 45vh;
+    width: 100vw;
+    /* opacity: 1px; */
+}
+
+
+.Useful_Links {
+    /* position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px; */
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+
+}
+
+.footer_ulccs_logo{
+    height: 2rem;
+}
+
+.Copyright{
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 767px) {
+    .fw-bold {
+        font-weight: 400 !important;
+    }
+    .baner_text_2 {
+        font-size: 0rem;
+        color: #fff;
+        position: relative;
+    }
+    .section_5 {
+        
+        height: 253vh;
+        
+    
+    }
+}
+.full_container{
+    background: #134941;
+}
+
+@media screen and (max-width: 320px) {
+    .nav_light {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

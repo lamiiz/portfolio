@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.section_main {
+    background-color: #303030;
+
+}
+
+@media screen and (max-width: 768px) {
+    .cards_blog {
+        padding: 100px 0px 100px 0;
+    }
+
+}
+
+.cards_blog {
+    color: #ffffff;
+    padding: 370px 0px 100px 0;
+}
+
+.card_blog {
+    padding: 20px 20px 50px 20px;
+
+}
+
+.card_title {
+    font-size: .9375rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #bebebe;
+    line-height: 24px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+.catd_text {
+    font-size: 1.25rem;
+    font-family: Montserrat, sans-serif;
+    color: #f6f6f6;
+    line-height: 30px;
+    font-weight: 400;
+    height: 55px;
+
+}
+
+.READ_MORE {
+    padding: 20px 0 0px 0;
+    position: absolute;
+
+}
+
+.blogs {
+    color: #f6f6f6;
+    padding-top: 130px;
+    position: absolute;
+}
+
+
+.contact {
+    color: #ffffff;
+    position: absolute;
+    margin: 100px 0px 0px 300px;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1440px) {
+    .contact {
+        margin: 100px 0px 0px 60px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .contact {
+        margin: 100px 0px 0px 20px;
+        font-size: small;
+    }
+}

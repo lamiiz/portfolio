@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap'); */
+
+.input-container {
+    background-color: #ffffff;
+    border: 1px solid #9d9c9c;
+    height: 74px;
+    width: 300px;
+    /* font-family: 'Roboto' sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    padding: 0 10px 0;
+}
+
+.input-container input {
+    margin-top: 28px;
+}
+
+#img {
+    width: 32px;
+    display: inline;
+    margin-left: -60px;
+}
+
+#span,
+#a {
+    color: #9b9b9b;
+}
+
+.recaptcha {
+    font-size: 12px;
+    margin-left: -55px;
+    position: relative;
+    bottom: -10px;
+}
+
+#a,
+.dash {
+    font-size: 8px;
+    text-decoration: none;
+    display: inline;
+    position: relative;
+    top: -22px;
+    right: -232px;
+}
+
+#a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: default;
+}
+
+.check {
+    border: none;
+    padding: 0px 0px 0px 0px;
+}
+.checkbox-text{
+    color: black;
+}

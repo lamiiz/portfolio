@@ -1,0 +1,96 @@
+.codep_ul {
+
+    list-style-type: none;
+}
+
+
+.codep_ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.codep_ul li ul {
+    visibility: hidden;
+    opacity: 15;
+    position: absolute;
+    display: block;
+    padding: 15px 65px 25px 15px;
+    background: #1a1a1a;
+    border-radius: 5px;
+    list-style-type: none;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+
+
+.codep_ul li ul li:hover {
+    background: #252525;
+
+}
+
+.codep_ul li:hover a {
+    color: #F9F8FD;
+}
+
+.codep_ul li:hover ul {
+    visibility: visible;
+    opacity: 5;
+}
+
+.codep_ul li:hover ul li a {
+    color: #F9F8FD;
+}
+
+
+
+
+
+
+
+
+
+
+/* sidebar dropdown */
+
+
+
+
+.codep_ul_sidebar{
+    list-style-type: none;
+}
+
+.codep_ul_sidebar li a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.codep_ul_sidebar li ul {
+    visibility: hidden;
+    /* opacity: 15; */
+    position: absolute;
+    display: block;
+    /* padding: 15px 65px 25px 15px; */
+    background: #1a1a1a;
+    /* border-radius: 5px; */
+    list-style-type: none;
+    /* transition: opacity 0.2s, visibility 0.2s; */
+}
+
+.codep_ul_sidebar li ul li:hover {
+    background: #252525;
+
+}
+
+.codep_ul_sidebar li:hover a {
+    color: #F9F8FD;
+}
+
+.codep_ul_sidebar li:hover ul {
+    visibility: visible;
+    /* opacity: 5; */
+}
+
+.codep_ul_sidebar li:hover ul li a {
+    color: #F9F8FD;
+}

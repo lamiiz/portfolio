@@ -1,0 +1,93 @@
+.contact_heading {
+    padding: 70px 0px 50px 0px;
+}
+
+.display_flex_contact {
+    color: #ffffff;
+}
+
+.contact_section {
+    background-color: #303030;
+    padding: 0px 0px 100px 0px;
+}
+
+
+.login-box .user-box {
+    position: relative;
+    padding: 35px 0;
+
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 0px 0;
+    font-size: 16px;
+    color: #b0b0ad;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #b0b0ad;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box input:hover {
+
+    border-bottom: 1px solid #ffffff;
+
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -20px;
+    left: 10px;
+    /* color: #03e9f4; */
+    font-size: 12px;
+}
+
+.capta_submit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+@media screen and (max-width: 425px) {
+    .capta_submit {
+        flex-direction: column;
+
+    }
+}
+
+
+
+.contact {
+    color: #ffffff;
+    position: absolute;
+    margin: 100px 0px 0px 300px;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1440px) {
+    .contact {
+        margin: 100px 0px 0px 60px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .contact {
+        margin: 100px 0px 0px 20px;
+        font-size: small;
+    }
+}

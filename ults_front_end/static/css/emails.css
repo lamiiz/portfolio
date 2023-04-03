@@ -1,0 +1,24 @@
+.emails {
+    background-color: #383838;
+    color: #ffffff;
+    padding: 90px 0px 90px 0px;
+
+}
+
+.email_flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.email_flex p {
+    color: #d0d0d0;
+}
+
+@media screen and (max-width: 648px) {
+    .email_flex {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 70px;
+    }
+}

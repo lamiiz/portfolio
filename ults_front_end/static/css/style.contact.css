@@ -1,0 +1,46 @@
+.hero_img_cuntent {
+    color: #fff;
+    /* position: relative; */
+    /* text-align: center; */
+    font-size: 3.5rem;
+    font-weight: 900;
+    width: 50rem;
+    position: absolute;
+
+}
+@media screen and (max-width: 768px) {
+    .hero_img_cuntent {
+        /* color: #fff; */
+        /* position: relative; */
+        /* text-align: center; */
+        font-size: 2.5rem;
+        font-weight: 600;
+        width: 40rem;
+        position: absolute;
+    
+    }
+}
+@media screen and (max-width: 425px) {
+    .hero_img_cuntent {
+        /* color: #fff; */
+        /* position: relative; */
+        /* text-align: center; */
+        font-size: 1.5rem;
+        /* font-weight: 600; */
+        width: 20rem;
+        position: absolute;
+    
+    }
+}
+@media screen and (max-width: 320px) {
+    .hero_img_cuntent {
+        /* color: #fff; */
+        /* position: relative; */
+        /* text-align: center; */
+        font-size: 1.5rem;
+        /* font-weight: 600; */
+        width: 15rem;
+        position: absolute;
+    
+    }
+}

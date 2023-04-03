@@ -1,0 +1,43 @@
+.back-to-top {
+    visibility: hidden;
+    background-color: rgba(248, 246, 246, 0);
+    border: 1px solid #9c9c9c;
+    color: #ffb300;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 48px;
+    position: fixed;
+    bottom: 500px;
+    right: 35px;
+    z-index: 999;
+    cursor: pointer;
+    border-radius: 6px;
+    opacity: 0;
+    /* -webkit-transform: translateZ(0); */
+    transition: all 1.1s
+}
+
+.back-to-top .fa {
+    font-size: 18px;
+    color: rgb(255, 174, 0);
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.back-to-top:hover {
+    background-color: #fc4f3f;
+    opacity: 1
+}
+
+.back-to-top:hover .fa {
+    color: #ffffff;
+    opacity: 1
+}
+
+.back-to-top.show {
+    visibility: visible;
+    bottom: 35px;
+    opacity: 10;
+    scroll-behavior: smooth;
+}

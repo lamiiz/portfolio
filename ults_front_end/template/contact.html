@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ults/contact | my design</title>
+    <!-- style -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <!-- codepen dropdown -->
+    <link rel="stylesheet" href="/static/css/codependrop.css">
+    <!-- side bar -->
+    <link rel="stylesheet" href="/static/css/sidebar.css">
+    <!-- boostrap -->
+    <link rel="stylesheet" href="/static/css/boostrap.min.css">
+    <!-- mouse icon -->
+    <!-- <link rel="stylesheet" href="/static/css/mouse_button.css"> -->
+    <!-- google icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- ogcp -->
+    <!-- <link rel="stylesheet" href="/static/css/ogcp.css"> -->
+    <!-- ogcp2 -->
+    <!-- <link rel="stylesheet" href="/static/css/ogcp2.css"> -->
+    <!-- playbtton -->
+    <!-- <link rel="stylesheet" href="/static/css/plybttn.css"> -->
+    <!-- footer  -->
+    <link rel="stylesheet" href="/static/css/footer-4.css">
+    <!-- Libraries -->
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- boostrao icon -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"> -->
+    <!-- section 2 -->
+    <!-- <link rel="stylesheet" href="/static/css/section2.css"> -->
+    <!-- grids -->
+    <!-- <link rel="stylesheet" href="/static/css/grids.css"> -->
+    <!-- contact style -->
+    <link rel="stylesheet" href="/static/css/style.contact.css">
+
+    <!-- contact -->
+    <link rel="stylesheet" href="/static/css/contact.css">
+    <!-- roboat -->
+    <link rel="stylesheet" href="/static/css/contact.robot.css">
+    <!-- emails kozhikode -->
+    <link rel="stylesheet" href="/static/css/emails.css">
+
+    <!-- scroll top button -->
+    <script src="/static/js/scrolltop.js"></script>
+    <link rel="stylesheet" href="/static/css/scrolltop.css">
+</head>
+
+<body>
+
+
+    <a href="#team-bg-1">
+        <div class=' back-to-top ' id='back-to-top' title=''><i class='fa fa-chevron-up'></i></div>
+    </a>
+
+
+
+    <!-- navbar start -->
+    <nav id="team-bg-1" class="navbar navbar_bg z-3 z-3 container-fluid navbar-expand position-absolute">
+        <div class="container ">
+            <a class="navbar-brand" href="#"><img src="/static/images/header_ults_logo.svg" class="img-fluid navbar_img"
+                    alt=""></a>
+            <!-- <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon menu_icon "></span>
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item nav_item">
+
+
+                        <ul class="codep_ul">
+                            <li>
+                                <a class="nav-link nav_light  dropdown-toggle" href="#0">Services</a>
+                                <ul>
+                                    <li><a href="#0">Mobile App Development</a></li>
+                                    <li><a href="#0">Web Design</a></li>
+                                    <li><a href="#0">Print Design</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+
+                    </li>
+
+                    <li class="nav-item nav_item">
+                        <a class="nav-link nav_light" style="color: #ffffff;" aria-current="page" target="_blank"
+                            href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item nav_item">
+                        <a class="nav-link nav_light" style="color: #ffffff;" aria-current="page" target="_blank"
+                            href="contact.html">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item nav_item">
+                        <a class="nav-link nav_light" style="color: #ffffff;" aria-current="page" target="_blank"
+                            href="blog.html">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav_light" style="color: #ffffff;" aria-current="page" href="#">
+                            <span class="material-symbols-outlined" onclick="openNav()">sort</span></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- navbar enfd -->
+
+
+
+
+
+    <!-- hero img start -->
+    <style>
+        .card_img_css {
+            background-image: url(/static/images/contact/contact_hero.jpg);
+            margin: 0px 0px 0px -15px;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+            /* background-color: #303030; */
+            opacity: 6789869;
+
+
+
+        }
+
+        /* @media screen and (max-width: 1440px) {
+            .card_img_css {
+                height: 100vh;
+                width: auto;
+            }
+        } */
+
+
+
+
+        .card-img-overlay {
+            background: #00000090;
+            opacity: 1;
+            position: absolute;
+            /* height: 100%;
+            width: 100%; */
+
+        }
+
+        .hero_img_cuntent {
+            margin: 400px 0px 0px 300px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .hero_img_cuntent {
+                margin: 250px 0px 0px 200px;
+                font-size: 40px;
+                width: 600px;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .hero_img_cuntent {
+                margin: 250px 0px 0px 100px;
+                font-size: 40px;
+                width: 600px;
+            }
+
+            .card_img_css {
+                height: 80vh;
+                width: 100vw;
+
+
+
+            }
+        }
+        @media screen and (max-width: 425px) {
+            .hero_img_cuntent {
+                margin: 250px 0px 0px 20px;
+                font-size: 25px;
+                width: 300px;
+            }
+
+           
+        }
+    </style>
+
+
+
+
+    <!-- boxshado peoples start -->
+    <div class="container-fluid boxshadow_section">
+
+        <div class="cards_people">
+            <div class="text-bg-dark">
+                <div class="card_img_css">
+                    <div class="card-img-overlay">
+                        <h3 class="contact">Contact Us</h3>
+                        <div class="hero_img_cuntent">
+                            <p class="fw-bold">We Are All Ears Anxious to
+                                Tune in From You</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="##/static/images/people/people_culture_fun_hero.jpg" class="card-img card_img" alt="..."> -->
+            </div>
+
+        </div>
+    </div>
+    <!-- hero img end -->
+
+
+
+
+    <!-- sidebar start -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="people.html">People</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="blog.html">Blog</a>
+        <a href="project.html">Projects</a>
+    </div>
+    <!-- sidebar end -->
+
+
+
+
+
+
+    <!-- contact form start  -->
+    <section class="contact_section container-fluid">
+        <form action="">
+            <div class="container">
+                <div class="container text_align">
+                    <div class="login-box container-fluid col-lg-10 display_flex_contact">
+                        <div class="contact_heading">
+                            <h3>Get in Touch</h3>
+                            <p>Abridge the gap, we are eager to meet you</p>
+                        </div>
+
+                        <div class="user-box">
+                            <input type="text" name="" required="">
+                            <label>Username</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="text" name="" required="">
+                            <label>Username</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="text" name="" required="">
+                            <label>Username</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="text" name="" required="">
+                            <label>Username</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="text" name="" required="">
+                            <label>Username</label>
+                        </div>
+                        <div class="capta_submit">
+                            <div>
+                                <label class="check" for="check">
+                                    <div class="input-container">
+                                        <input type="checkbox" class="checkbox" id="check">
+                                        <span class="checkbox-text">I'm not a robot</span>
+                                    </div>
+                                </label>
+
+
+                                <img id="img" src="https://www.gstatic.com/recaptcha/api2/logo_48.png">
+                                <span id="span" class="recaptcha">reCAPTCHA</span>
+                                <br>
+                                <a id="a" href="#">Privacy</a>
+                                <span class="dash">-</span>
+                                <a id="a" href="#">Terms</a>
+
+                                <!-- <div class="triangle"></div> -->
+
+                            </div>
+                            <div class="submit">
+                                <input type="submit">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </form>
+    </section>
+    <!-- contact form end -->
+
+
+    <section class="emails container-fluid">
+        <div class="col-lg-10 container-fluid email_flex">
+            <div class="col-lg-4">
+                <h3>kozhikode</h3>
+                <p>muham********@gmail.com</p>
+            </div>
+            <div class="col-lg-4 ">
+                <h3>kozhikode</h3>
+                <p>UL CyberPark, 4th Floor, Nellikode P.O,<br>Kozhikode - 673016. Kerala, India</p>
+            </div>
+            <div class="col-lg-4">
+                <h3>kozhikode</h3>
+                <p>No.77/5, 1st floor, Nandidurga Main Road <br> Benson Town, Bangalore - 560046. Karnataka, India</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- <iframe src="" frameborder="0">
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=11.179977124987111, 75.88259465842991&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                    href="https://2yu.co">2yu</a><br>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 100%;
+                        width: 100%;
+                    }
+                </style>
+                <a href="https://embedgooglemap.2yu.co/">html embed google map</a>
+                <style>
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 100%;
+                        width: 100%;
+                    }
+                </style>
+            </div>
+        </div>
+    </iframe> -->
+
+
+
+
+
+    <div class="mapouter">
+        <div class="gmap_canvas"><iframe width="100%" height="2000%" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=11.179489592719031, 75.88167008188135&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 100%;
+                    width: 100%;
+                }
+            </style>
+            <style>
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 2000%;
+                    width: 100%;
+                }
+            </style>
+        </div>
+    </div>
+
+
+    <!-- footer start -->
+    <div class="footer_section">
+        <!--code pen Footer Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="footer-links">
+                            <h3>Useful Links</h3>
+                            <a href="">Lorem ipsum</a>
+                            <a href="">tempus posuere </a>
+                            <a href="">velit id accumsan</a>
+                            <a href="">ut porttitor</a>
+                            <a href="">Nam pretium</a>
+                            <a href="">accumsan</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="footer-about">
+                            <div class="footer-links">
+                                <h3>Useful Links</h3>
+                                <a href="">Lorem ipsum</a>
+                                <a href="">tempus posuere </a>
+                                <a href="">velit id accumsan</a>
+                                <a href="">ut porttitor</a>
+                                <!-- <a href="">Nam pretium</a>
+                            <a href="">accumsan</a> -->
+                            </div>
+                            <!-- <div class="footer-social">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="footer-contact">
+                            <h3>Get In Touch</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu
+                                placerat
+                                rhoncus, lorem quam iaculis felis, sed lacus neque id eros
+                            </p>
+                            <p>contact@ults.in | 994680****</p>
+                        </div>
+                        <div class="footer-social">
+                            <h2 class="Useful_Links">Useful Links</h2>
+
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
+                            <a href=""><i class="fab fa-twitter"></i></a>
+
+                            <a href="https://wa.me/919946803234"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-md-6 col-lg-4">
+                    <div class="footer-links">
+                        <h3>Useful Links</h3>
+                        <a href="">Lorem ipsum</a>
+                        <a href="">tempus posuere </a>
+                        <a href="">velit id accumsan</a>
+                        <a href="">ut porttitor</a>
+                        <a href="">Nam pretium</a>
+                        <a href="">accumsan</a>
+                    </div>
+                </div> -->
+                    <!-- <div class="col-md-6 col-lg-3">
+                    <div class="footer-project">
+                        <h3>Latest Projects</h3>
+                        <a href=""><img src="img/img-1.jpg" alt="Image"></a>
+                        <a href=""><img src="img/img-2.jpg" alt="Image"></a>
+                        <a href=""><img src="img/img-3.jpg" alt="Image"></a>
+                        <a href=""><img src="img/img-4.jpg" alt="Image"></a>
+                        <a href=""><img src="img/img-5.jpg" alt="Image"></a>
+                        <a href=""><img src="img/img-6.jpg" alt="Image"></a>
+                    </div>
+                </div> -->
+                </div>
+            </div>
+            <!-- <div class="container footer-newsletter">
+            <p>
+                Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat
+                rhoncus, lorem quam iaculis felis, sed lacus neque id eros
+            </p>
+            <div class="row form">
+                <div class="col-sm-4">
+                    <input class="form-control" placeholder="Your Name">
+                </div>
+                <div class="col-sm-4">
+                    <input class="form-control" placeholder="Your Email">
+                </div>
+                <div class="col-sm-4">
+                    <button class="btn">Subscribe</button>
+                </div>
+            </div>
+        </div> -->
+
+            <div class="copyright">
+                <div class="container">
+                    <hr class="border-light opacity-50">
+                </div>
+                <div class="container mt-5">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="copy-text">
+                                <img class="footer_ulccs_logo" src="/static/images/footer_ulccs_logo.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="Copyright">Copyright © UL Technology Solutions (Private) Ltd. All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- code pen Footer End -->
+    </div>
+    <!-- footer end -->
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- side bar  -->
+    <script src="/static/js/sidebar.js"></script>
+</body>
+
+</html>
