@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+#fullbody{
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+#topfullbg {
+    height: 100vh;
+}
+
+input {
+    height: 60px;
+}
+
+#h1tv {
+    font-size: 60px;
+}
+
+@media(max-width: 600px) {
+    #h1tv {
+        font-size: 50px;
+    }
+
+}
+@media(max-width: 500px) {
+    #h1tv {
+        font-size: 40px;
+    }
+
+}
+@media(max-width: 400px) {
+    #h1tv {
+        font-size: 30px;
+    }
+    #h3encel{
+        font-size: small;
+    }
+    #pready{
+        font-size: small;
+    }
+
+}
+
+   
+
+#hrdiv{
+    height: 10px;
+    width: 100%;
+    background-color: rgb(77, 77, 77);
+}
+#btn{
+    background-color: rgb(193, 0, 0);
+}
+#Netflix-India,
+#questions{
+    color: rgb(134, 132, 132);
+}
+#blur{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.345) );
+}
